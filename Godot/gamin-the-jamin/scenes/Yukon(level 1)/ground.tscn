@@ -3,20 +3,20 @@
 [sub_resource type="CanvasTexture" id="CanvasTexture_5qwbu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g71wp"]
-size = Vector2(6042.2095, 25.999998)
+size = Vector2(12565.229, 45.724136)
 
-[node name="ground" type="Node2D" unique_id=1233020928]
+[node name="ground" type="StaticBody2D" unique_id=422678836]
 position = Vector2(48, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=727511554]
 modulate = Color(0.47415453, 0.35527968, 0.191879, 1)
 self_modulate = Color(0.47415453, 0.35527968, 0.191879, 1)
-position = Vector2(3200.5002, 14.500002)
-scale = Vector2(6497.0005, 29.000004)
+position = Vector2(6708.0005, 26)
+scale = Vector2(13512, 50.000004)
 texture = SubResource("CanvasTexture_5qwbu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=708387544]
-position = Vector2(3200.4998, 14.5)
-scale = Vector2(1.0752689, 1.1153847)
+position = Vector2(6707.5, 25.5)
+scale = Vector2(1.075269, 1.1153847)
 shape = SubResource("RectangleShape2D_g71wp")
-debug_color = Color(0.6802408, 0.49177295, 0.31269857, 0.41960785)
+debug_color = Color(0.30181915, 0.52477884, 0.9017242, 0.41960785)

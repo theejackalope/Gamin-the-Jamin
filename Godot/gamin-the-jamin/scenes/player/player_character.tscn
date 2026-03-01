@@ -67,13 +67,15 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_auamg"]
-height = 36.0
+height = 24.0
 
 [node name="PlayerCharacter" type="CharacterBody2D" unique_id=1140731590]
+light_mask = 2
 position = Vector2(0, -16)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1214090189]
 sprite_frames = SubResource("SpriteFrames_hovw3")
+autoplay = "default"
 frame = 6
 frame_progress = 0.5828619
 
