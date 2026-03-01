@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Brainstorming"
             }
+          },
+          {
+            "id": "0e8ef3a68fc73844",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gamin The Jamin/Tasks/Art Style.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Art Style"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,11 +195,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "144429e3dcbd4dfb",
+  "active": "0e8ef3a68fc73844",
   "lastOpenFiles": [
-    "Gamin The Jamin/Gamin the Jamin.md",
-    "Gamin The Jamin/ToDo List.md",
+    "Jacklynn's notes.md",
     "Gamin The Jamin/Tasks/Brainstorming.md",
-    "Gamin The Jamin/Planning.canvas"
+    "Gamin The Jamin/ToDo List.md",
+    "Gamin The Jamin/Planning.canvas",
+    "Gamin The Jamin/Gamin the Jamin.md"
   ]
 }

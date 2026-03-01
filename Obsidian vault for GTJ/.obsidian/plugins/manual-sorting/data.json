@@ -2,7 +2,8 @@
   "customOrder": {
     "/": {
       "children": [
-        "Gamin The Jamin"
+        "Gamin The Jamin",
+        "Jacklynn's notes.md"
       ],
       "sortOrder": "custom"
     },
