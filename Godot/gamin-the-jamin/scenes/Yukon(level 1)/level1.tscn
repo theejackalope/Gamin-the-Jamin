@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://curx86mnbobsy" path="res://assets/tilesets/world_tileset.png" id="1_7vnyn"]
 [ext_resource type="PackedScene" uid="uid://bcutlcq6xwo7a" path="res://scenes/Yukon(level 1)/ground.tscn" id="1_23wpf"]
 [ext_resource type="PackedScene" uid="uid://dxjrpr4t3ydsp" path="res://scenes/Yukon(level 1)/sky.tscn" id="2_20g6e"]
-[ext_resource type="Script" uid="uid://dkfvxap81w0m5" path="res://scripts/camera_auto_right.gd" id="3_20g6e"]
+[ext_resource type="Script" path="res://scripts/camera_auto_right.gd" id="3_20g6e"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_leeew"]
 texture = ExtResource("1_7vnyn")
@@ -143,6 +143,7 @@ sources/0 = SubResource("TileSetAtlasSource_leeew")
 [node name="TileMap" type="TileMap" parent="." unique_id=2135835572]
 tile_set = SubResource("TileSet_k8edj")
 format = 2
+layer_0/tile_data = PackedInt32Array(-262139, 327680, 4, -262138, 327680, 4, -262137, 327680, 4, -262136, 327680, 4, -262135, 327680, 4, -262134, 327680, 4, -262133, 327680, 4, -262132, 327680, 4, -262131, 327680, 4, -327666, 327680, 4, -393203, 327680, 4, -393204, 327680, 4, -393205, 327680, 4, -327670, 327680, 4, -327671, 327680, 4, -327672, 327680, 4, -196603, 327680, 4, -196602, 327680, 4)
 
 [node name="ground" parent="." unique_id=1233020928 instance=ExtResource("1_23wpf")]
 position = Vector2(48, -2)
