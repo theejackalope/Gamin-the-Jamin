@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gamin The Jamin/Tasks/Brainstorming.md",
+                "file": "Gamin The Jamin/Gamin the Jamin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brainstorming"
+              "title": "Gamin the Jamin"
             }
           }
         ]
@@ -182,9 +182,9 @@
   },
   "active": "144429e3dcbd4dfb",
   "lastOpenFiles": [
-    "Gamin The Jamin/Gamin the Jamin.md",
     "Gamin The Jamin/ToDo List.md",
+    "Gamin The Jamin/Planning.canvas",
     "Gamin The Jamin/Tasks/Brainstorming.md",
-    "Gamin The Jamin/Planning.canvas"
+    "Gamin The Jamin/Gamin the Jamin.md"
   ]
 }
