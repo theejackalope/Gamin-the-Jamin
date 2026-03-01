@@ -36,16 +36,6 @@ region = Rect2(336, 0, 48, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_hovw3"]
 animations = [{
-"frames": [],
-"loop": true,
-"name": &"Fall",
-"speed": 5.0
-}, {
-"frames": [],
-"loop": true,
-"name": &"Jump",
-"speed": 5.0
-}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_eebfp")
@@ -72,24 +62,22 @@ animations = [{
 "texture": SubResource("AtlasTexture_wvac4")
 }],
 "loop": true,
-"name": &"Run",
+"name": &"default",
 "speed": 12.0
-}, {
-"frames": [],
-"loop": true,
-"name": &"Slide",
-"speed": 5.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_auamg"]
-height = 36.0
+height = 24.0
 
 [node name="PlayerCharacter" type="CharacterBody2D" unique_id=1140731590]
+light_mask = 2
 position = Vector2(0, -16)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1214090189]
 sprite_frames = SubResource("SpriteFrames_hovw3")
-animation = &"Fall"
+autoplay = "default"
+frame = 6
+frame_progress = 0.5828619
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1846013022]
 position = Vector2(0, 2)
