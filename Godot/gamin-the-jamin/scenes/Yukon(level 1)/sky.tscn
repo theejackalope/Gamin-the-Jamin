@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dxjrpr4t3ydsp"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_jk741"]
+
+[node name="sky" type="Node2D" unique_id=2545840]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1128005603]
+modulate = Color(0.23260048, 0.78318226, 0.71794, 1)
+self_modulate = Color(0.23260048, 0.78318226, 0.71794, 1)
+position = Vector2(1600.625, -93.99999)
+scale = Vector2(3200.7502, 188)
+texture = SubResource("CanvasTexture_jk741")

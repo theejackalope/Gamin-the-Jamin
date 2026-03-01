@@ -1,3 +1,16 @@
 [gd_scene format=3 uid="uid://dafuyfhprxo2a"]
 
-[node name="Node2D" type="Node2D" unique_id=1328268789]
+[ext_resource type="PackedScene" uid="uid://bcutlcq6xwo7a" path="res://scenes/Yukon(level 1)/ground.tscn" id="1_23wpf"]
+[ext_resource type="PackedScene" uid="uid://dxjrpr4t3ydsp" path="res://scenes/Yukon(level 1)/sky.tscn" id="2_20g6e"]
+
+[node name="main layer" type="Node2D" unique_id=1328268789]
+
+[node name="ground" parent="." unique_id=1233020928 instance=ExtResource("1_23wpf")]
+position = Vector2(48, -2)
+
+[node name="sky" parent="." unique_id=2545840 instance=ExtResource("2_20g6e")]
+position = Vector2(-1, 0)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1801432111]
+position = Vector2(182, -81)
+zoom = Vector2(3.2, 3.2)
