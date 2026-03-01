@@ -7,6 +7,6 @@
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1128005603]
 modulate = Color(0.23260048, 0.78318226, 0.71794, 1)
 self_modulate = Color(0.23260048, 0.78318226, 0.71794, 1)
-position = Vector2(1600.625, -93.99999)
-scale = Vector2(3200.7502, 188)
+position = Vector2(3204.125, -93.99999)
+scale = Vector2(6407.7505, 188)
 texture = SubResource("CanvasTexture_jk741")
