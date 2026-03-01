@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dtgs5iqt205e4"
-path="res://.godot/imported/player run 48x48.png-03f9dc0241e5b45b8f23ffa6ba5635d3.ctex"
+uid="uid://curx86mnbobsy"
+path="res://.godot/imported/world_tileset.png-a558ce5668feb977163096060c4516db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assests/art/characters/Player/player run 48x48.png"
-dest_files=["res://.godot/imported/player run 48x48.png-03f9dc0241e5b45b8f23ffa6ba5635d3.ctex"]
+source_file="res://assets/tilesets/world_tileset.png"
+dest_files=["res://.godot/imported/world_tileset.png-a558ce5668feb977163096060c4516db.ctex"]
 
 [params]
 

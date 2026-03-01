@@ -11,12 +11,12 @@ config_version=5
 [application]
 
 config/name="Gamin The Jamin"
+run/main_scene="uid://dafuyfhprxo2a"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
 [file_customization]
 
 folder_colors={
-"res://assests/": "red",
 "res://assets/": "red",
 "res://scenes/": "yellow",
 "res://scripts/": "blue"
