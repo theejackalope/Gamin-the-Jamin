@@ -16,6 +16,7 @@ config/features=PackedStringArray("4.6", "Forward Plus")
 [file_customization]
 
 folder_colors={
+"res://assests/": "red",
 "res://assets/": "red",
 "res://scenes/": "yellow",
 "res://scripts/": "blue"
@@ -27,4 +28,5 @@ folder_colors={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
