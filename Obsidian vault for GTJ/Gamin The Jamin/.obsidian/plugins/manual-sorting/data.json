@@ -1,0 +1,25 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "Gamin the Jamin.md",
+        "ToDo List.md",
+        "Planning.canvas",
+        "Tasks"
+      ],
+      "sortOrder": "custom"
+    },
+    "Tasks": {
+      "children": [
+        "Tasks/Brainstorming.md",
+        "Tasks/Game type.md",
+        "Tasks/Game Mechanics.md",
+        "Tasks/Art Style.md"
+      ],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}

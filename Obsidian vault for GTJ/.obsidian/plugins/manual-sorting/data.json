@@ -1,0 +1,31 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "Gamin The Jamin"
+      ],
+      "sortOrder": "custom"
+    },
+    "Gamin The Jamin": {
+      "children": [
+        "Gamin The Jamin/Tasks",
+        "Gamin The Jamin/Gamin the Jamin.md",
+        "Gamin The Jamin/Planning.canvas",
+        "Gamin The Jamin/ToDo List.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Gamin The Jamin/Tasks": {
+      "children": [
+        "Gamin The Jamin/Tasks/Art Style.md",
+        "Gamin The Jamin/Tasks/Brainstorming.md",
+        "Gamin The Jamin/Tasks/Game Mechanics.md",
+        "Gamin The Jamin/Tasks/Game type.md"
+      ],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "bottom"
+}

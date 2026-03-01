@@ -1,0 +1,5 @@
+- [ ] [[Brainstorming|Brain Storm Ideas for game]]
+- [ ] [[Game type|Choose what type of game]]
+- [ ] [[Game Mechanics|Decide on Game Mechanics]]
+- [ ] [[Art Style|Figure out art style]]
+- [ ] 
