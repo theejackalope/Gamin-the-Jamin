@@ -8,10 +8,10 @@
     },
     "Gamin The Jamin": {
       "children": [
-        "Gamin The Jamin/Tasks",
         "Gamin The Jamin/Gamin the Jamin.md",
         "Gamin The Jamin/Planning.canvas",
-        "Gamin The Jamin/ToDo List.md"
+        "Gamin The Jamin/ToDo List.md",
+        "Gamin The Jamin/Tasks"
       ],
       "sortOrder": "custom"
     },

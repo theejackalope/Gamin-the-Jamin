@@ -11,10 +11,14 @@
             "id": "144429e3dcbd4dfb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Gamin The Jamin/Tasks/Brainstorming.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Brainstorming"
             }
           }
         ]
@@ -173,10 +177,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
   "active": "144429e3dcbd4dfb",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Gamin The Jamin/Gamin the Jamin.md",
+    "Gamin The Jamin/ToDo List.md",
+    "Gamin The Jamin/Tasks/Brainstorming.md",
+    "Gamin The Jamin/Planning.canvas"
+  ]
 }

@@ -1,0 +1,5 @@
+- ### nostalgia runner a parkour road trip
+  Player is playing a character doing parkour outside the window of a moving car. Maybe a road trip across Canada (Only a few provinces to start), Main character is moving with a box van? Game is a 2D auto scrolling platformer. Pros: Relatively simple, We control the time each level takes (music will be easier), 2D. Cons: Simple, 2D platformer (probs going to be a few).
+
+- ### political intrigue game
+  Player is at a royal event trying to win their way up to the position of royal advisor. But they aren't the only one. The player must use their wit to climb the social ladder in a battle of "words". When a round starts the dialog box with transform into a battle ground where the player must fight the computer component. Pros: Cool & unique idea Cons: Computer ai combat...
