@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dfcbvfo0jashc"]
 
-[ext_resource type="Texture2D" uid="uid://dtgs5iqt205e4" path="res://assests/art/characters/Player/player run 48x48.png" id="1_auamg"]
+[ext_resource type="Texture2D" uid="uid://dtgs5iqt205e4" path="res://assets/art/characters/Player/player run 48x48.png" id="1_auamg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eebfp"]
 atlas = ExtResource("1_auamg")
@@ -36,6 +36,16 @@ region = Rect2(336, 0, 48, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_hovw3"]
 animations = [{
+"frames": [],
+"loop": true,
+"name": &"Fall",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"Jump",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_eebfp")
@@ -62,8 +72,13 @@ animations = [{
 "texture": SubResource("AtlasTexture_wvac4")
 }],
 "loop": true,
-"name": &"default",
+"name": &"Run",
 "speed": 12.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"Slide",
+"speed": 5.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_auamg"]
@@ -74,8 +89,7 @@ position = Vector2(0, -16)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1214090189]
 sprite_frames = SubResource("SpriteFrames_hovw3")
-frame = 6
-frame_progress = 0.5828619
+animation = &"Fall"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1846013022]
 position = Vector2(0, 2)
