@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gamin The Jamin/ToDo List.md",
+                "file": "Gamin The Jamin/Tasks/Jacklynn's notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ToDo List"
+              "title": "Jacklynn's notes"
             }
           }
         ]
@@ -183,10 +183,17 @@
   "active": "144429e3dcbd4dfb",
   "lastOpenFiles": [
     "Gamin The Jamin/Tasks/Brainstorming.md",
-    "Jacklynn's notes.md",
-    "Gamin The Jamin/Tasks/Tyler's Notes.md",
     "Gamin The Jamin/ToDo List.md",
+    "Gamin The Jamin/Tasks/Jacklynn's notes.md",
+    "Gamin The Jamin/Tasks/Generic obstacles.md",
+    "Gamin The Jamin/Tasks/Gas Station.md",
     "Gamin The Jamin/Gamin the Jamin.md",
-    "Gamin The Jamin/Planning.canvas"
+    "Gamin The Jamin/Tasks/Level 1.md",
+    "Gamin The Jamin/Tasks/Bonus Stuff.md",
+    "Gamin The Jamin/Tasks/Level 4.md",
+    "Gamin The Jamin/Tasks/Level 3.md",
+    "Gamin The Jamin/Tasks/Level 2.md",
+    "Gamin The Jamin/Planning.canvas",
+    "Gamin The Jamin/Tasks/Tyler's Notes.md"
   ]
 }

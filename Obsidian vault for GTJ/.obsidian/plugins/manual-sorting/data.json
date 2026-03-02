@@ -2,8 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
-        "Gamin The Jamin",
-        "Jacklynn's notes.md"
+        "Gamin The Jamin"
       ],
       "sortOrder": "custom"
     },
@@ -22,7 +21,15 @@
         "Gamin The Jamin/Tasks/Brainstorming.md",
         "Gamin The Jamin/Tasks/Game Mechanics.md",
         "Gamin The Jamin/Tasks/Game type.md",
-        "Gamin The Jamin/Tasks/Tyler's Notes.md"
+        "Gamin The Jamin/Tasks/Jacklynn's notes.md",
+        "Gamin The Jamin/Tasks/Tyler's Notes.md",
+        "Gamin The Jamin/Tasks/Level 1.md",
+        "Gamin The Jamin/Tasks/Level 2.md",
+        "Gamin The Jamin/Tasks/Level 3.md",
+        "Gamin The Jamin/Tasks/Level 4.md",
+        "Gamin The Jamin/Tasks/Generic obstacles.md",
+        "Gamin The Jamin/Tasks/Gas Station.md",
+        "Gamin The Jamin/Tasks/Bonus Stuff.md"
       ],
       "sortOrder": "custom"
     }

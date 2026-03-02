@@ -1,0 +1,19 @@
+- Yukon Level (lvl 1)
+- Vibe:
+	- nothern lights at the end of level!! in the day night cycle
+	- mountains/landscapes
+	- desert (carcross desert)
+	- tomb
+- Obstacles:
+	- pickaxe
+	- gold pan
+	- dredge
+	- sign forest sign jump (actual forest is background)
+	- fences
+	- bushes
+	- treeeeeeessssss
+	- rivers/lakes
+	- bridge railing
+	- birds
+	- cars/trucks/semis/rvs
+	- rockslides

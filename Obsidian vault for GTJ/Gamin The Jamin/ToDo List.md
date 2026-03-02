@@ -4,7 +4,7 @@
 - [ ] [[Art Style|Figure out art style]]
 
 
-Tyler's ToDo:
+[[Tyler's Notes|Tyler's ToDo:]]
 - [ ] Pause Menu
 - [ ] Obstacles (functionality only use visual placeholders)
 - [ ] Pick Ups (functionality only use visual placeholders)
@@ -13,4 +13,10 @@ Tyler's ToDo:
 - [ ] Gas Station Scene
 - [ ] 
 
-
+[[Jacklynn's notes|Jacklynn's ToDo:]]
+- [ ] Research into provinces vibes
+- [ ] Level designs
+- [ ] Jump and Slide animations
+- [ ] parallax backgrounds
+- [ ] generic reusable assets (trees, bushes, road signs, fences, barns, houses, ect.)
+- [ ] 

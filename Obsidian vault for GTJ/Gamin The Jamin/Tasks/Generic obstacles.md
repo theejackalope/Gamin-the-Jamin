@@ -1,0 +1,14 @@
+- fence
+- car 
+- bush
+- tree
+- rocks
+- signs
+- street light
+- semi with trailer
+- farm houses
+- barns
+- billboards
+- power poles
+- silos
+- 
