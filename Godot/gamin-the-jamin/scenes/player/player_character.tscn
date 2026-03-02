@@ -67,18 +67,21 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_auamg"]
-height = 24.0
+radius = 15.0
+height = 42.0
 
 [node name="PlayerCharacter" type="CharacterBody2D" unique_id=1140731590]
-light_mask = 2
-position = Vector2(0, -16)
+position = Vector2(-14, -12)
+collision_mask = 3
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1214090189]
+position = Vector2(14, -14)
+scale = Vector2(1.5833334, 1.5833334)
 sprite_frames = SubResource("SpriteFrames_hovw3")
 autoplay = "default"
 frame = 6
 frame_progress = 0.5828619
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1846013022]
-position = Vector2(0, 2)
+position = Vector2(14, -12)
 shape = SubResource("CapsuleShape2D_auamg")

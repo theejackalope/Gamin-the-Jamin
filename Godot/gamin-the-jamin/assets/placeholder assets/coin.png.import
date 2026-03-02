@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://curx86mnbobsy"
-path="res://.godot/imported/world_tileset.png-a558ce5668feb977163096060c4516db.ctex"
+uid="uid://6hishvroh0dk"
+path="res://.godot/imported/coin.png-1225a1d63985428b37be9291639829f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tilesets/world_tileset.png"
-dest_files=["res://.godot/imported/world_tileset.png-a558ce5668feb977163096060c4516db.ctex"]
+source_file="res://assets/placeholder assets/coin.png"
+dest_files=["res://.godot/imported/coin.png-1225a1d63985428b37be9291639829f1.ctex"]
 
 [params]
 

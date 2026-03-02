@@ -1,9 +1,23 @@
 extends CharacterBody2D
+@onready var coin_label = $"../CanvasLayer/Label"
 
+func _ready():
+	coin_label.text = "Coins: 0"
 
-const SPEED = 190.0
-const JUMP_VELOCITY = -330.0
+const SPEED = 270.0
+const JUMP_VELOCITY = -375.0
 
+var coins: int = 0
+
+func collect_loonie():
+	coins += 1
+	coin_label.text = "Coins: " + str(coins)
+	print("Coins: ", coins)
+
+func collect_toonie():
+	coins += 2
+	coin_label.text = "Coins: " + str(coins)
+	print("Coins: ", coins)
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

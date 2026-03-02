@@ -1,14 +1,17 @@
-[gd_scene format=3 uid="uid://cejexm3n3qkrb"]
+[gd_scene format=3 uid="uid://dafuyfhprxo2a"]
 
-[ext_resource type="Texture2D" uid="uid://curx86mnbobsy" path="res://assets/tilesets/world_tileset.png" id="1_o0xu8"]
-[ext_resource type="PackedScene" uid="uid://bcutlcq6xwo7a" path="res://scenes/Yukon(level 1)/ground.tscn" id="2_lrb0g"]
-[ext_resource type="PackedScene" uid="uid://dxjrpr4t3ydsp" path="res://scenes/Yukon(level 1)/sky.tscn" id="3_yib6m"]
-[ext_resource type="PackedScene" uid="uid://dfcbvfo0jashc" path="res://scenes/player/player_character.tscn" id="4_d20uc"]
-[ext_resource type="Script" uid="uid://b0jyv33dlkth4" path="res://scripts/player_character.gd" id="5_8mitx"]
-[ext_resource type="Script" uid="uid://dkfvxap81w0m5" path="res://scripts/camera_auto_right.gd" id="6_dsmj0"]
+[ext_resource type="Texture2D" uid="uid://curx86mnbobsy" path="res://assets/placeholder assets/world_tileset.png" id="1_7vnyn"]
+[ext_resource type="PackedScene" uid="uid://bcutlcq6xwo7a" path="res://scenes/Yukon(level 1)/ground.tscn" id="1_23wpf"]
+[ext_resource type="PackedScene" uid="uid://dxjrpr4t3ydsp" path="res://scenes/Yukon(level 1)/sky.tscn" id="2_20g6e"]
+[ext_resource type="Script" uid="uid://dkfvxap81w0m5" path="res://scripts/camera_auto_right.gd" id="3_20g6e"]
+[ext_resource type="PackedScene" uid="uid://dfcbvfo0jashc" path="res://scenes/player/player_character.tscn" id="5_k8edj"]
+[ext_resource type="Script" uid="uid://b0jyv33dlkth4" path="res://scripts/player_character.gd" id="6_k8edj"]
+[ext_resource type="PackedScene" uid="uid://da4nty44hq8it" path="res://scenes/Pickups/loonie.tscn" id="7_e4kig"]
+[ext_resource type="PackedScene" uid="uid://crw8mm8fni4ut" path="res://scenes/Pickups/toonie.tscn" id="8_d15pq"]
+[ext_resource type="PackedScene" uid="uid://nhhfplpme8ir" path="res://scenes/Obstacles/sign.tscn" id="9_f3aqk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_leeew"]
-texture = ExtResource("1_o0xu8")
+texture = ExtResource("1_7vnyn")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -141,6 +144,7 @@ texture = ExtResource("1_o0xu8")
 sources/0 = SubResource("TileSetAtlasSource_leeew")
 
 [node name="main layer" type="Node2D" unique_id=1328268789]
+position = Vector2(2, 585)
 
 [node name="TileMap" type="TileMap" parent="." unique_id=2135835572]
 z_index = 10
@@ -148,18 +152,40 @@ tile_set = SubResource("TileSet_k8edj")
 format = 2
 layer_0/tile_data = PackedInt32Array(-65527, 131072, 8, -131063, 131072, 8, -65517, 131072, 8, -131053, 131072, 8, -65506, 131072, 8, -131042, 131072, 8, -65496, 131072, 8, -131032, 131072, 8, -65487, 131072, 8, -131023, 131072, 8, -65480, 131072, 8, -131016, 131072, 8, -65472, 131072, 8, -131008, 131072, 8, -65465, 131072, 8, -131001, 131072, 8, -65458, 131072, 8, -130994, 131072, 8, -65450, 131072, 8, -130986, 131072, 8, -65442, 131072, 8, -130978, 131072, 8, -65434, 131072, 8, -130970, 131072, 8, -65425, 131072, 8, -130961, 131072, 8, -65416, 131072, 8, -130952, 131072, 8, -65406, 131072, 8, -130942, 131072, 8, -65396, 131072, 8, -130932, 131072, 8, -65386, 131072, 8, -130922, 131072, 8, -65377, 131072, 8, -130913, 131072, 8, -65369, 131072, 8, -130905, 131072, 8, -65361, 131072, 8, -130897, 131072, 8, -65351, 131072, 8, -130887, 131072, 8, -130878, 131072, 8, -65342, 131072, 8, -65334, 131072, 8, -130870, 131072, 8, -130860, 131072, 8, -65324, 131072, 8, -65315, 131072, 8, -130851, 131072, 8, -65306, 131072, 8, -130842, 131072, 8, -65298, 131072, 8, -130834, 131072, 8, -65289, 131072, 8, -130825, 131072, 8, -65281, 131072, 8, -130817, 131072, 8, -65273, 131072, 8, -130809, 131072, 8, -65265, 131072, 8, -130801, 131072, 8, -65256, 131072, 8, -130792, 131072, 8, -65245, 131072, 8, -130781, 131072, 8, -65235, 131072, 8, -130771, 131072, 8, -65224, 131072, 8, -130760, 131072, 8, -65213, 131072, 8, -130749, 131072, 8, -65203, 131072, 8, -130739, 131072, 8, -65194, 131072, 8, -130730, 131072, 8, -65185, 131072, 8, -130721, 131072, 8, -65176, 131072, 8, -130712, 131072, 8, -65167, 131072, 8, -130703, 131072, 8, -65158, 131072, 8, -130694, 131072, 8, -65150, 131072, 8, -130686, 131072, 8, -65142, 131072, 8, -130678, 131072, 8, -196599, 65536, 6, -196578, 65536, 6, -196559, 65536, 6, -196544, 65536, 6, -196530, 65536, 6, -196514, 65536, 6, -196497, 65536, 6, -196478, 65536, 6, -196589, 65536, 5, -196568, 65536, 5, -196552, 65536, 5, -196537, 65536, 5, -196522, 65536, 5, -196506, 65536, 5, -196488, 65536, 5, -196468, 65536, 5)
 
-[node name="ground" parent="." unique_id=1233020928 instance=ExtResource("2_lrb0g")]
-position = Vector2(48, -2)
+[node name="ground" parent="." unique_id=1233020928 instance=ExtResource("1_23wpf")]
+position = Vector2(49, -9)
 
-[node name="sky" parent="." unique_id=2545840 instance=ExtResource("3_yib6m")]
+[node name="sky" parent="." unique_id=2545840 instance=ExtResource("2_20g6e")]
 position = Vector2(-8, 0)
 
-[node name="PlayerCharacter" parent="." unique_id=1140731590 instance=ExtResource("4_d20uc")]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=466870272]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=733548239]
+anchors_preset = -1
+anchor_right = 0.051215276
+anchor_bottom = 0.041666668
+offset_left = 17.0
+offset_top = 20.0
+offset_right = 57.0
+offset_bottom = 43.0
+theme_override_font_sizes/font_size = 24
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayerCharacter" parent="." unique_id=1140731590 instance=ExtResource("5_k8edj")]
 z_index = 100
-position = Vector2(56, -16)
-script = ExtResource("5_8mitx")
+position = Vector2(59, -16)
+script = ExtResource("6_k8edj")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1801432111]
-position = Vector2(335, -141)
-zoom = Vector2(1.75, 1.75)
-script = ExtResource("6_dsmj0")
+position = Vector2(563, -258)
+zoom = Vector2(1.05, 1.05)
+script = ExtResource("3_20g6e")
+
+[node name="loonie" parent="." unique_id=1146246940 instance=ExtResource("7_e4kig")]
+position = Vector2(193, -15)
+
+[node name="toonie" parent="." unique_id=1590988672 instance=ExtResource("8_d15pq")]
+position = Vector2(569, -80)
+
+[node name="sign" parent="." unique_id=94533221 instance=ExtResource("9_f3aqk")]
+position = Vector2(564, -7)

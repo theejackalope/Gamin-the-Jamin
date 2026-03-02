@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://bxitmlliuk21q"]
+
+[ext_resource type="Script" uid="uid://da72wc00prbj1" path="res://scripts/main_menu.gd" id="1_gn8lm"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_gn8lm"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_hk6sr"]
+
+[node name="Main Menu" type="Control" unique_id=119240449]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 443.0
+offset_top = 63.0
+offset_right = 718.0
+offset_bottom = 530.0
+script = ExtResource("1_gn8lm")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1602781733]
+modulate = Color(0.2, 0.2, 0.2, 1)
+z_index = -1
+layout_mode = 0
+offset_left = -444.0
+offset_top = -65.0
+offset_right = 710.0
+offset_bottom = 583.0
+texture = SubResource("CanvasTexture_gn8lm")
+
+[node name="Foreground" type="TextureRect" parent="." unique_id=1659665784]
+modulate = Color(0.35686275, 0.27058825, 0.21176471, 1)
+layout_mode = 0
+offset_right = 276.0
+offset_bottom = 467.0
+texture = SubResource("CanvasTexture_hk6sr")
+
+[node name="Title" type="Label" parent="." unique_id=778888456]
+layout_mode = 0
+offset_left = 68.0
+offset_top = 64.0
+offset_right = 209.0
+offset_bottom = 96.0
+text = "Nastalgia Runner"
+
+[node name="Start Button" type="Button" parent="." unique_id=26475549]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 285.0
+offset_right = 190.0
+offset_bottom = 321.0
+theme_override_font_sizes/font_size = 20
+text = "Start"
+
+[node name="Quit Button" type="Button" parent="." unique_id=392758289]
+layout_mode = 0
+offset_left = 87.0
+offset_top = 362.0
+offset_right = 184.0
+offset_bottom = 393.0
+text = "Quit Game
+"
+
+[node name="Options" type="Button" parent="." unique_id=1697406341]
+layout_mode = 0
+offset_left = 87.0
+offset_top = 324.0
+offset_right = 184.0
+offset_bottom = 355.0
+text = "Options"
+
+[connection signal="pressed" from="Start Button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="Quit Button" to="." method="_on_quit_button_pressed"]

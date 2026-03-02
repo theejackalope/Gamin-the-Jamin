@@ -1,6 +1,6 @@
 extends Camera2D
 
-@export var scroll_speed: float = 100.0
+@export var scroll_speed: float = 110.0
 var delay_timer: float = 0.0
 var delay_duration: float = 1.5
 

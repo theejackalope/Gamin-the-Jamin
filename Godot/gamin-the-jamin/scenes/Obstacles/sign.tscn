@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://nhhfplpme8ir"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_4vxmw"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_7ojor"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_peq7a"]
+size = Vector2(7, 35.125)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bmi1f"]
+size = Vector2(30, 20.03125)
+
+[node name="sign" type="StaticBody2D" unique_id=150362321]
+position = Vector2(0, -1)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1308156528]
+position = Vector2(5.5, -16.5)
+scale = Vector2(7, 35)
+texture = SubResource("CanvasTexture_4vxmw")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1553087130]
+position = Vector2(6, -44.000004)
+scale = Vector2(29.375002, 19.624996)
+texture = SubResource("CanvasTexture_7ojor")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=300675935]
+position = Vector2(5.5, -16.5625)
+shape = SubResource("RectangleShape2D_peq7a")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1214645842]
+position = Vector2(6, -44.015625)
+shape = SubResource("RectangleShape2D_bmi1f")
