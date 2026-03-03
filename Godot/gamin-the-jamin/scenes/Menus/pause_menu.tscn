@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://ck7iq4sra73eu"]
+
+[ext_resource type="Script" uid="uid://cx41fb8dq11r6" path="res://scripts/pause_menu.gd" id="1_vrwda"]
+
+[node name="Pause Menu" type="CanvasLayer" unique_id=329945547]
+process_mode = 3
+script = ExtResource("1_vrwda")
+
+[node name="Background" type="ColorRect" parent="." unique_id=303512414]
+offset_left = 456.0
+offset_top = 183.0
+offset_right = 665.0
+offset_bottom = 472.0
+color = Color(0.2, 0.2, 0.2, 1)
+
+[node name="Title" type="Label" parent="." unique_id=1510585599]
+offset_left = 533.0
+offset_top = 235.0
+offset_right = 593.0
+offset_bottom = 272.0
+text = "Paused"
+
+[node name="Resume" type="Button" parent="." unique_id=259134050]
+offset_left = 525.0
+offset_top = 327.0
+offset_right = 595.0
+offset_bottom = 358.0
+text = "Resume"
+
+[node name="Quit" type="Button" parent="." unique_id=942318643]
+offset_left = 517.0
+offset_top = 377.0
+offset_right = 609.0
+offset_bottom = 408.0
+text = "Quit Game"
+
+[connection signal="pressed" from="Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

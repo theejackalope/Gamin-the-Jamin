@@ -1,14 +1,27 @@
 extends CharacterBody2D
 @onready var coin_label = $"../CanvasLayer/Label"
 
-func _ready():
-	coin_label.text = "Coins: 0"
-
 const SPEED = 270.0
 const JUMP_VELOCITY = -375.0
 
+var pause_menu_scene = preload("res://scenes/Menus/pause_menu.tscn")
+var pause_menu
+
 var coins: int = 0
 
+func _ready():
+	coin_label.text = "Coins: 0"
+	pause_menu = pause_menu_scene.instantiate()
+	add_child(pause_menu)
+
+func _process(_delta):
+	if Input.is_action_just_pressed("ui_cancel"):
+		if get_tree().paused:
+			pause_menu.resume()
+		else:
+			get_tree().paused = true
+			pause_menu.show()
+			
 func collect_loonie():
 	coins += 1
 	coin_label.text = "Coins: " + str(coins)
