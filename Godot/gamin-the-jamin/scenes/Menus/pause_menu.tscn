@@ -27,12 +27,12 @@ offset_right = 595.0
 offset_bottom = 358.0
 text = "Resume"
 
-[node name="Quit" type="Button" parent="." unique_id=942318643]
+[node name="Main Menu" type="Button" parent="." unique_id=942318643]
 offset_left = 517.0
 offset_top = 377.0
 offset_right = 609.0
 offset_bottom = 408.0
-text = "Quit Game"
+text = "Main Menu"
 
 [connection signal="pressed" from="Resume" to="." method="_on_resume_button_pressed"]
-[connection signal="pressed" from="Quit" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="Main Menu" to="." method="_on_quit_button_pressed"]
