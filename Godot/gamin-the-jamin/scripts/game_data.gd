@@ -4,23 +4,28 @@ var level_data: Dictionary = {
 	"level1": {"completed": false, "coins": 0, "time": 0.0},
 	"level2": {"completed": false, "coins": 0, "time": 0.0},
 	"level3": {"completed": false, "coins": 0, "time": 0.0},
+	"level4": {"completed": false, "coins": 0, "time": 0.0},
 }
 
 # maps level names to their scene files
 const LEVEL_SCENES = {
-	"level1": "res://scenes/level1.tscn",
-	"level2": "res://scenes/level2.tscn",
-	"level3": "res://scenes/level3.tscn",
+	"level1": "res://scenes/Yukon(level 1)/level1.tscn",
+	"level2": "res://scenes/BC(level2)/level2.tscn",
+	"level3": "res://scenes/Alberta(level3)/level3.tscn",
+	"level4": "res://scenes/Sask(level4)/level4.tscn"
 }
 
 const SAVE_PATH = "user://savefile.json"
 
 func save_game():
 	var file = FileAccess.open(SAVE_PATH, FileAccess.WRITE)
+	print("Saved Game")
 	file.store_string(JSON.stringify(level_data))
 	file.close()
+	
 
 func load_game():
+	print("Game Loaded")
 	if not FileAccess.file_exists(SAVE_PATH):
 		return
 	var file = FileAccess.open(SAVE_PATH, FileAccess.READ)

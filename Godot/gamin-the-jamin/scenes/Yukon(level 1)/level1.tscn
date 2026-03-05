@@ -198,4 +198,4 @@ position = Vector2(569, -80)
 position = Vector2(564, -7)
 
 [node name="FinishLine" parent="." unique_id=74945742 instance=ExtResource("10_in3m1")]
-position = Vector2(14895, -254)
+position = Vector2(1109, -328)
