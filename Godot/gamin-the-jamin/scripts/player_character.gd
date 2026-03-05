@@ -30,7 +30,11 @@ func _process(_delta):
 		else:
 			get_tree().paused = true
 			pause_menu.show()
-			
+
+func complete_level():
+	GameData.save_level("level1", coins, elapsed_time)
+	get_tree().change_scene_to_file("res://scenes/level2.tscn")
+
 func collect_loonie():
 	coins += 1
 	coin_label.text = "Coins: " + str(coins)

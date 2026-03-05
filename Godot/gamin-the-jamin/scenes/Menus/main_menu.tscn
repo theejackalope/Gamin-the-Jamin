@@ -66,5 +66,14 @@ offset_right = 184.0
 offset_bottom = 355.0
 text = "Options"
 
-[connection signal="pressed" from="Start Button" to="." method="_on_start_button_pressed"]
+[node name="Continue" type="Button" parent="." unique_id=1206970345]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 249.0
+offset_right = 194.0
+offset_bottom = 282.0
+text = "Continue"
+
+[connection signal="pressed" from="Start Button" to="." method="_on_new_game_button_pressed"]
 [connection signal="pressed" from="Quit Button" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="Continue" to="." method="_on_continue_button_pressed"]

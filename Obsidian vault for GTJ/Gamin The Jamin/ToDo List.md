@@ -5,13 +5,14 @@
 
 
 [[Tyler's Notes|Tyler's ToDo:]]
-- [x] Pause Menu
+- [x] Pause Menu 
+- [ ] **BUG**! when paused character can still be moved but camera stops
 - [ ] Obstacles (functionality only use visual placeholders)
 - [ ] Pick Ups (functionality only use visual placeholders)
 - [x] Level Timer 
-- [ ] Coins and timers save to player after levels for like records or some shit like a save file or something to save progress
+- [x] Coins and timers save to player after levels for like records or some shit like a save file or something to save progress
 - [ ] Gas Station Scene
-- [ ] 
+- [ ] Stats Scene Before Gas Station and a Menu option as well
 
 [[Jacklynn's notes|Jacklynn's ToDo:]]
 - [ ] Research into provinces vibes
