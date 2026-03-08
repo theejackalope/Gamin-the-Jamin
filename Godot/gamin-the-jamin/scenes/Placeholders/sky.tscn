@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://dxjrpr4t3ydsp"]
 
+[ext_resource type="Texture2D" uid="uid://cc84mwoo1myhk" path="res://assets/art/textures/Level Template.png" id="1_3x81r"]
+
 [sub_resource type="CanvasTexture" id="CanvasTexture_jk741"]
 
 [node name="sky" type="Node2D" unique_id=2545840]
@@ -10,3 +12,7 @@ self_modulate = Color(0.23260048, 0.78318226, 0.71794, 1)
 position = Vector2(7511.389, -300)
 scale = Vector2(15005.222, 587.25)
 texture = SubResource("CanvasTexture_jk741")
+
+[node name="skybackdrop" type="Sprite2D" parent="." unique_id=721525286]
+position = Vector2(7511, -300)
+texture = ExtResource("1_3x81r")
