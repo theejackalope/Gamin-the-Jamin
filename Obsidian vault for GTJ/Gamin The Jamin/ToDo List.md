@@ -7,8 +7,8 @@
 [[Tyler's Notes|Tyler's ToDo:]]
 - [x] Pause Menu 
 - [ ] **BUG**! when paused character can still be moved but camera stops
-- [ ] Current logic always repeats level 2 in player_character.gd
-- [ ] Obstacles (functionality only use visual placeholders)
+- [ ] **BUG!** Current logic always repeats level 2 in player_character.gd
+- [x] Obstacles (functionality only use visual placeholders)
 - [ ] Pick Ups (functionality only use visual placeholders)
 - [ ] double jump, heart healing, speeeeeeeed booooost, extra heart, coin multiplier (limited amount), freeze frame
 - [x] Level Timer 

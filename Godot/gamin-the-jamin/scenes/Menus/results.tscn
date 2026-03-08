@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://d08a672t6nytc"]
+
+[ext_resource type="Script" uid="uid://bpbg1brg66s4r" path="res://scripts/results.gd" id="1_krxqq"]
+
+[node name="Results" type="Control" unique_id=1293113126]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 590.0
+offset_top = 321.0
+offset_right = 590.0
+offset_bottom = 321.0
+script = ExtResource("1_krxqq")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=258665820]
+layout_mode = 0
+offset_left = -151.0
+offset_top = -302.0
+offset_right = 153.0
+offset_bottom = 301.0
+color = Color(0.25, 0.25, 0.25, 1)
+
+[node name="Title" type="Label" parent="." unique_id=1226926778]
+layout_mode = 0
+offset_left = -57.0
+offset_top = -263.0
+offset_right = 56.0
+offset_bottom = -221.0
+theme_override_font_sizes/font_size = 30
+text = "Results!"
+
+[node name="LevelComplete" type="Label" parent="." unique_id=1599622496]
+layout_mode = 0
+offset_left = -90.0
+offset_top = -203.0
+offset_right = 101.0
+offset_bottom = -169.0
+theme_override_font_sizes/font_size = 24
+text = "Level Complete!!"
+
+[node name="TimeLabel" type="Label" parent="." unique_id=1792301745]
+layout_mode = 0
+offset_left = -47.0
+offset_top = -142.0
+offset_right = 27.0
+offset_bottom = -111.0
+
+[node name="CoinsLabel" type="Label" parent="." unique_id=805674797]
+layout_mode = 0
+offset_left = -56.0
+offset_top = -37.0
+offset_right = 21.0
+
+[node name="BestTimeLabel" type="Label" parent="." unique_id=285797382]
+layout_mode = 0
+offset_left = -52.0
+offset_top = -97.0
+offset_right = 33.0
+offset_bottom = -62.0
+
+[node name="ContinueButton" type="Button" parent="." unique_id=1368058057]
+layout_mode = 0
+offset_left = -58.0
+offset_top = 63.0
+offset_right = 56.0
+offset_bottom = 105.0
+theme_override_font_sizes/font_size = 24
+text = "Continue"

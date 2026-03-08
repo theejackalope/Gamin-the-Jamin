@@ -2,19 +2,28 @@
 
 [ext_resource type="Script" uid="uid://dk8sg2bnc5u7q" path="res://scripts/car.gd" id="1_coay0"]
 
-[sub_resource type="CanvasTexture" id="CanvasTexture_pp47y"]
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_coay0"]
-size = Vector2(189, 81)
+size = Vector2(154, 72)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_63s7i"]
+size = Vector2(154, 72)
 
 [node name="Car" type="CharacterBody2D" unique_id=1031484839]
 script = ExtResource("1_coay0")
-move_speed = null
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2057530862]
-position = Vector2(2.842171e-14, 5.684342e-14)
-scale = Vector2(189.37502, 81.37501)
-texture = SubResource("CanvasTexture_pp47y")
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1198496984]
+offset_left = -75.0
+offset_top = -35.0
+offset_right = 79.0
+offset_bottom = 37.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1939499060]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1235649952]
+position = Vector2(2, 1)
 shape = SubResource("RectangleShape2D_coay0")
+
+[node name="DamageArea" type="Area2D" parent="." unique_id=140598455]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DamageArea" unique_id=1983359207]
+position = Vector2(2, 1)
+shape = SubResource("RectangleShape2D_63s7i")
+debug_color = Color(0.7, 0, 0, 0.41960785)
