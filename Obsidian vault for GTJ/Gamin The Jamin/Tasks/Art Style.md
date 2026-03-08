@@ -2,3 +2,4 @@
 - visuals in car for powerups
 - gas station backgrounds
 - gas station chain racing theme'd/finish line motif
+- Manitoba is construction style based
