@@ -10,6 +10,7 @@
 - [ ] Current logic always repeats level 2 in player_character.gd
 - [ ] Obstacles (functionality only use visual placeholders)
 - [ ] Pick Ups (functionality only use visual placeholders)
+- [ ] double jump, heart healing, speeeeeeeed booooost, extra heart, coin multiplier (limited amount), freeze frame
 - [x] Level Timer 
 - [x] Coins and timers save to player after levels for like records or some shit like a save file or something to save progress
 - [ ] Gas Station Scene

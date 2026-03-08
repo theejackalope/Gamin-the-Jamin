@@ -29,3 +29,7 @@ func _physics_process(delta):
 		if global_position.x < camera_left_edge - 100:
 			finished = true
 			queue_free()
+			
+func _on_body_entered(body):
+	if body.is_in_group("player"):
+		body.take_damage()  # you can implement this on the player later

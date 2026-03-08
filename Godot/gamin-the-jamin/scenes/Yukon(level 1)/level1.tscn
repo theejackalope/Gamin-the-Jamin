@@ -190,22 +190,22 @@ position = Vector2(-11, 0)
 
 [node name="PlayerCharacter" parent="." unique_id=1140731590 groups=["player"] instance=ExtResource("5_k8edj")]
 z_index = 100
-position = Vector2(59, -16)
+position = Vector2(29, -20)
 script = ExtResource("6_k8edj")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1801432111 groups=["camera"]]
-position = Vector2(563, -258)
-zoom = Vector2(1.05, 1.05)
+position = Vector2(578, -265)
+zoom = Vector2(1.01, 1.01)
 script = ExtResource("3_20g6e")
 
 [node name="loonie" parent="." unique_id=1146246940 instance=ExtResource("7_e4kig")]
-position = Vector2(193, -15)
+position = Vector2(289, -85)
 
 [node name="toonie" parent="." unique_id=1590988672 instance=ExtResource("8_d15pq")]
-position = Vector2(569, -80)
+position = Vector2(1202, -79)
 
 [node name="sign" parent="." unique_id=94533221 instance=ExtResource("9_f3aqk")]
-position = Vector2(564, -7)
+position = Vector2(1201, -6)
 
 [node name="Car" parent="." unique_id=1031484839 instance=ExtResource("11_ec76h")]
 position = Vector2(2039, -46)
