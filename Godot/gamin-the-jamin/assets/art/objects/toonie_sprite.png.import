@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rbfevww1cgvd"
-path="res://.godot/imported/healthheart.png-6741171c2081c37913263a59410c44fd.ctex"
+uid="uid://bgfmo3ghoslkl"
+path="res://.godot/imported/toonie_sprite.png-e02a0f6a198ccb9f902aa68032b1ec83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/objects/healthheart.png"
-dest_files=["res://.godot/imported/healthheart.png-6741171c2081c37913263a59410c44fd.ctex"]
+source_file="res://assets/art/objects/toonie_sprite.png"
+dest_files=["res://.godot/imported/toonie_sprite.png-e02a0f6a198ccb9f902aa68032b1ec83.ctex"]
 
 [params]
 
