@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bxitmlliuk21q"]
 
 [ext_resource type="Script" uid="uid://da72wc00prbj1" path="res://scripts/main_menu.gd" id="1_gn8lm"]
+[ext_resource type="Texture2D" uid="uid://gth7ssgpddj2" path="res://assets/art/objects/gameconsole screen.png" id="2_rvjno"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_gn8lm"]
 
@@ -32,6 +33,11 @@ offset_right = 276.0
 offset_bottom = 467.0
 texture = SubResource("CanvasTexture_hk6sr")
 
+[node name="GameconsoleScreen" type="Sprite2D" parent="." unique_id=1490053283]
+position = Vector2(132, 262.99997)
+scale = Vector2(2.2964287, 2.2964287)
+texture = ExtResource("2_rvjno")
+
 [node name="Title" type="Label" parent="." unique_id=778888456]
 layout_mode = 0
 offset_left = 68.0
@@ -43,35 +49,35 @@ text = "Nastalgia Runner"
 [node name="Start Button" type="Button" parent="." unique_id=26475549]
 layout_mode = 0
 offset_left = 82.0
-offset_top = 285.0
+offset_top = 174.0
 offset_right = 190.0
-offset_bottom = 321.0
+offset_bottom = 210.0
 theme_override_font_sizes/font_size = 20
 text = "Start"
 
 [node name="Quit Button" type="Button" parent="." unique_id=392758289]
 layout_mode = 0
 offset_left = 87.0
-offset_top = 362.0
+offset_top = 251.0
 offset_right = 184.0
-offset_bottom = 393.0
+offset_bottom = 282.0
 text = "Quit Game
 "
 
 [node name="Options" type="Button" parent="." unique_id=1697406341]
 layout_mode = 0
 offset_left = 87.0
-offset_top = 324.0
+offset_top = 213.0
 offset_right = 184.0
-offset_bottom = 355.0
+offset_bottom = 244.0
 text = "Options"
 
 [node name="Continue" type="Button" parent="." unique_id=1206970345]
 layout_mode = 0
 offset_left = 76.0
-offset_top = 249.0
+offset_top = 138.0
 offset_right = 194.0
-offset_bottom = 282.0
+offset_bottom = 171.0
 text = "Continue"
 
 [connection signal="pressed" from="Start Button" to="." method="_on_new_game_button_pressed"]

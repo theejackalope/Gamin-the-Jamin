@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ck7iq4sra73eu"]
 
 [ext_resource type="Script" uid="uid://cx41fb8dq11r6" path="res://scripts/pause_menu.gd" id="1_vrwda"]
+[ext_resource type="Texture2D" uid="uid://gth7ssgpddj2" path="res://assets/art/objects/gameconsole screen.png" id="2_prkpd"]
 
 [node name="Pause Menu" type="CanvasLayer" unique_id=329945547]
 process_mode = 3
@@ -13,25 +14,30 @@ offset_right = 665.0
 offset_bottom = 472.0
 color = Color(0.2, 0.2, 0.2, 1)
 
+[node name="GameconsoleScreen" type="Sprite2D" parent="." unique_id=1474781057]
+position = Vector2(569.00006, 330)
+scale = Vector2(2.2714286, 2.2892857)
+texture = ExtResource("2_prkpd")
+
 [node name="Title" type="Label" parent="." unique_id=1510585599]
 offset_left = 533.0
-offset_top = 235.0
+offset_top = 188.0
 offset_right = 593.0
-offset_bottom = 272.0
+offset_bottom = 225.0
 text = "Paused"
 
 [node name="Resume" type="Button" parent="." unique_id=259134050]
 offset_left = 525.0
-offset_top = 327.0
+offset_top = 280.0
 offset_right = 595.0
-offset_bottom = 358.0
+offset_bottom = 311.0
 text = "Resume"
 
 [node name="Main Menu" type="Button" parent="." unique_id=942318643]
 offset_left = 517.0
-offset_top = 377.0
-offset_right = 609.0
-offset_bottom = 408.0
+offset_top = 330.0
+offset_right = 613.0
+offset_bottom = 361.0
 text = "Main Menu"
 
 [connection signal="pressed" from="Resume" to="." method="_on_resume_button_pressed"]
